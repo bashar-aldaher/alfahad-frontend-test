@@ -5,11 +5,11 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "module": "esnext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   },
   "files": [],
-  "references": [
-    { "path": "./tsconfig.test.json" }
-  ],
+  "references": [{ "path": "./tsconfig.test.json" }],
   "include": ["src/**/*.tsx", "src/**/*.ts", "src/setupTests.ts"]
 }

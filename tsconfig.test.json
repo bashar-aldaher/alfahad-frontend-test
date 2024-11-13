@@ -7,8 +7,10 @@
     "moduleResolution": "Bundler",
     "skipLibCheck": true,
     "strict": true,
-    "jsx": "react-jsx", 
-
+    "jsx": "react-jsx",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "allowImportingTsExtensions": true
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/setupTests.ts"]
 }

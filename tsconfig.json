@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["jest"],
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.test.json" }
+  ],
+  "include": ["src/**/*.tsx", "src/**/*.ts", "src/setupTests.ts"]
+}

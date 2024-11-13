@@ -1,0 +1,19 @@
+@import "fonts.css";
+
+@import "global.css";
+/* Libraries */
+
+/* bootstrap */
+/* @import "bootstrap/dist/css/bootstrap.min.css"; */
+
+/* swiper */
+@import "../../../node_modules/swiper/swiper.min.css";
+@import "swiper/css";
+
+/* ---- Skelton Loading Library */
+@import "react-loading-skeleton/dist/skeleton.css";
+
+/* bootstrap */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* end Libraries */
